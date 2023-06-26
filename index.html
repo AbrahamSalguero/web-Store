@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Store Test</title>
-    <link rel="stylesheet" href="styles.scss">
-    <script src="test.js"></script>
+    <title>Document</title>
+    <!-----------SWIPER JS---------->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+  
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 </head>
 <body>
     <!---https://www.behance.net/gallery/173128457/Teja-Organics-Website-Redesign?fbclid=IwAR2whkR8slZb_u2T1hKp-ZXm1IhYN9mv2w-DSqoGgPVjR-GASlxE6WwSV98-->
@@ -37,19 +39,55 @@
      <h1>Our Best Seller</h1>
 
      <!----HERE A SLIDER MADE WITH SWIPERJS, IN THIS SLIDER HAVE AN EIGHT BLOCKS------->
-
-     <div class="block-main">
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">
+        
+            <div class="block-image">
+            <img src="" alt="">
+            </div>
+                <div class="block-text">
+                    <p class="text-h">Organic Food</p>
+                    <p class="text-description">Hibiscus Tea 50gr</p>
+                    <p class="block-star"><!--here star icons-->star icons</p>
+                    <p class="block-price">350.00</p>
+                    <button>&#128722; Add to cart</button>
+                </div>
+       </div>
+      <div class="swiper-slide">
         <div class="block-image">
             <img src="" alt="">
         </div>
         <div class="block-text">
             <p class="text-h">Organic Food</p>
-            <p class="text-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p class="text-description">Lavender Tea 50gr</p>
             <p class="block-star"><!--here star icons-->star icons</p>
             <p class="block-price">350.00</p>
             <button>&#128722; Add to cart</button>
         </div>
-     </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="block-image">
+            <img src="" alt="">
+        </div>
+        <div class="block-text">
+            <p class="text-h">Organic Food</p>
+            <p class="text-description">LemonGrass Tea 50gr</p>
+            <p class="block-star"><!--here star icons-->star icons</p>
+            <p class="block-price">350.00</p>
+            <button>&#128722; Add to cart</button>
+        </div>
+      </div>
+      ...
+    </div>
+
+  
+    <!-- If we need scrollbar -->
+    <div class="swiper-scrollbar"></div>
+  </div>
 
 
      <section class="testimonial">
